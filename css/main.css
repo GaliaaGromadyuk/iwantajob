@@ -131,6 +131,10 @@ a:hover {
   position: absolute;
   height: 100%;
   overflow: hidden; }
+  @media screen and (min-width: 1025px) {
+    .fullscreen-bg__video {
+      width: 100%;
+      height: auto; } }
   @media screen and (min-width: 1550px) {
     .fullscreen-bg__video {
       max-width: 100%;
@@ -308,7 +312,7 @@ a:hover {
         margin-bottom: 50px; } }
     @media screen and (min-width: 1200px) {
       .footer__title {
-        margin-bottom: 200px; } }
+        margin-bottom: 150px; } }
 
 .js-animation-icon, .js-animation-icon2 {
   padding: 25px 25px; }
